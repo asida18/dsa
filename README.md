@@ -1,8 +1,8 @@
 # 🧠 Data Structures & Algorithms
 
-A clean, well-organized collection of LeetCode-style solutions in **Java** and **JavaScript**, grouped by topic with time/space complexity annotations on every solution.
+A progressively solved collection of LeetCode-style problems in **Java** and **JavaScript**, grouped by topic with time/space complexity annotations on every solution.
 
-> Solutions are written for clarity first, then optimized. Each file is self-contained with problem statement, approach explanation, and runnable tests.
+> Each file contains the problem statement, a stub to implement, and test cases that pass once solved. Solutions are added incrementally as problems are completed.
 
 ---
 
@@ -10,7 +10,7 @@ A clean, well-organized collection of LeetCode-style solutions in **Java** and *
 
 - [Progress Tracker](#-progress-tracker)
 - [How to Run](#-how-to-run)
-- [Solutions](#-solutions)
+- [Problems](#-problems)
   - [Arrays & Strings](#-arrays--strings)
   - [Trees & Graphs](#-trees--graphs)
   - [Dynamic Programming](#-dynamic-programming)
@@ -22,16 +22,18 @@ A clean, well-organized collection of LeetCode-style solutions in **Java** and *
 
 ## 📊 Progress Tracker
 
-| Topic | Easy | Medium | Hard | Total |
-|-------|------|--------|------|-------|
-| Arrays & Strings | ✅ | ✅ | ✅ | 3 / 3 |
-| Trees & Graphs | ✅ | ✅ | ✅ | 3 / 3 |
-| Dynamic Programming | ✅ | ✅ | ✅ | 3 / 3 |
-| Linked Lists | ✅ | ✅ | ✅ | 3 / 3 |
-| Sorting & Searching | ✅ | ✅ | ✅ | 3 / 3 |
-| **Total** | **5** | **5** | **5** | **15 problems** |
+| Topic | Easy | Medium | Hard | Solved |
+|-------|------|--------|------|--------|
+| Arrays & Strings | ⬜ | ⬜ | ⬜ | 0 / 3 |
+| Trees & Graphs | ⬜ | ⬜ | ⬜ | 0 / 3 |
+| Dynamic Programming | ⬜ | ⬜ | ⬜ | 0 / 3 |
+| Linked Lists | ⬜ | ⬜ | ⬜ | 0 / 3 |
+| Sorting & Searching | ⬜ | ⬜ | ⬜ | 0 / 3 |
+| **Total** | **0** | **0** | **0** | **0 / 15** |
 
-**Languages:** Java · JavaScript &nbsp;|&nbsp; **Total files:** 30
+**Languages:** Java · JavaScript &nbsp;|&nbsp; **Total problems:** 15 &nbsp;|&nbsp; **Total files:** 30
+
+> Update this table as problems are solved. Replace ⬜ with ✅ and update the counts.
 
 ---
 
@@ -45,7 +47,7 @@ No setup required — Node.js only.
 node javascript/arrays-strings/twoSum.js
 ```
 
-Run all JavaScript solutions at once:
+Run all JavaScript files at once:
 
 ```bash
 find javascript -name "*.js" | xargs -I {} node {}
@@ -72,47 +74,47 @@ done
 
 ---
 
-## 📁 Solutions
+## 📁 Problems
 
 ### 🔢 Arrays & Strings
 
-| Difficulty | Problem | Java | JavaScript |
-|------------|---------|------|------------|
-| 🟢 Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | [TwoSum.java](java/arrays-strings/TwoSum.java) | [twoSum.js](javascript/arrays-strings/twoSum.js) |
-| 🟡 Medium | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [LongestSubstringWithoutRepeatingChars.java](java/arrays-strings/LongestSubstringWithoutRepeatingChars.java) | [longestSubstringWithoutRepeatingChars.js](javascript/arrays-strings/longestSubstringWithoutRepeatingChars.js) |
-| 🔴 Hard | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [MedianOfTwoSortedArrays.java](java/arrays-strings/MedianOfTwoSortedArrays.java) | [medianOfTwoSortedArrays.js](javascript/arrays-strings/medianOfTwoSortedArrays.js) |
+| Difficulty | Problem | Java | JavaScript | Status |
+|------------|---------|------|------------|--------|
+| 🟢 Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | [TwoSum.java](java/arrays-strings/TwoSum.java) | [twoSum.js](javascript/arrays-strings/twoSum.js) | ⬜ |
+| 🟡 Medium | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [LongestSubstringWithoutRepeatingChars.java](java/arrays-strings/LongestSubstringWithoutRepeatingChars.java) | [longestSubstringWithoutRepeatingChars.js](javascript/arrays-strings/longestSubstringWithoutRepeatingChars.js) | ⬜ |
+| 🔴 Hard | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [MedianOfTwoSortedArrays.java](java/arrays-strings/MedianOfTwoSortedArrays.java) | [medianOfTwoSortedArrays.js](javascript/arrays-strings/medianOfTwoSortedArrays.js) | ⬜ |
 
 ### 🌲 Trees & Graphs
 
-| Difficulty | Problem | Java | JavaScript |
-|------------|---------|------|------------|
-| 🟢 Easy | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [MaxDepthBinaryTree.java](java/trees-graphs/MaxDepthBinaryTree.java) | [maxDepthBinaryTree.js](javascript/trees-graphs/maxDepthBinaryTree.js) |
-| 🟡 Medium | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](java/trees-graphs/NumberOfIslands.java) | [numberOfIslands.js](javascript/trees-graphs/numberOfIslands.js) |
-| 🔴 Hard | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [BinaryTreeMaxPathSum.java](java/trees-graphs/BinaryTreeMaxPathSum.java) | [binaryTreeMaxPathSum.js](javascript/trees-graphs/binaryTreeMaxPathSum.js) |
+| Difficulty | Problem | Java | JavaScript | Status |
+|------------|---------|------|------------|--------|
+| 🟢 Easy | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [MaxDepthBinaryTree.java](java/trees-graphs/MaxDepthBinaryTree.java) | [maxDepthBinaryTree.js](javascript/trees-graphs/maxDepthBinaryTree.js) | ⬜ |
+| 🟡 Medium | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [NumberOfIslands.java](java/trees-graphs/NumberOfIslands.java) | [numberOfIslands.js](javascript/trees-graphs/numberOfIslands.js) | ⬜ |
+| 🔴 Hard | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [BinaryTreeMaxPathSum.java](java/trees-graphs/BinaryTreeMaxPathSum.java) | [binaryTreeMaxPathSum.js](javascript/trees-graphs/binaryTreeMaxPathSum.js) | ⬜ |
 
 ### 🧮 Dynamic Programming
 
-| Difficulty | Problem | Java | JavaScript |
-|------------|---------|------|------------|
-| 🟢 Easy | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [ClimbingStairs.java](java/dynamic-programming/ClimbingStairs.java) | [climbingStairs.js](javascript/dynamic-programming/climbingStairs.js) |
-| 🟡 Medium | [Coin Change](https://leetcode.com/problems/coin-change/) | [CoinChange.java](java/dynamic-programming/CoinChange.java) | [coinChange.js](javascript/dynamic-programming/coinChange.js) |
-| 🔴 Hard | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [EditDistance.java](java/dynamic-programming/EditDistance.java) | [editDistance.js](javascript/dynamic-programming/editDistance.js) |
+| Difficulty | Problem | Java | JavaScript | Status |
+|------------|---------|------|------------|--------|
+| 🟢 Easy | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [ClimbingStairs.java](java/dynamic-programming/ClimbingStairs.java) | [climbingStairs.js](javascript/dynamic-programming/climbingStairs.js) | ⬜ |
+| 🟡 Medium | [Coin Change](https://leetcode.com/problems/coin-change/) | [CoinChange.java](java/dynamic-programming/CoinChange.java) | [coinChange.js](javascript/dynamic-programming/coinChange.js) | ⬜ |
+| 🔴 Hard | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [EditDistance.java](java/dynamic-programming/EditDistance.java) | [editDistance.js](javascript/dynamic-programming/editDistance.js) | ⬜ |
 
 ### 🔗 Linked Lists
 
-| Difficulty | Problem | Java | JavaScript |
-|------------|---------|------|------------|
-| 🟢 Easy | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [ReverseLinkedList.java](java/linked-lists/ReverseLinkedList.java) | [reverseLinkedList.js](javascript/linked-lists/reverseLinkedList.js) |
-| 🟡 Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [AddTwoNumbers.java](java/linked-lists/AddTwoNumbers.java) | [addTwoNumbers.js](javascript/linked-lists/addTwoNumbers.js) |
-| 🔴 Hard | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [MergeKSortedLists.java](java/linked-lists/MergeKSortedLists.java) | [mergeKSortedLists.js](javascript/linked-lists/mergeKSortedLists.js) |
+| Difficulty | Problem | Java | JavaScript | Status |
+|------------|---------|------|------------|--------|
+| 🟢 Easy | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [ReverseLinkedList.java](java/linked-lists/ReverseLinkedList.java) | [reverseLinkedList.js](javascript/linked-lists/reverseLinkedList.js) | ⬜ |
+| 🟡 Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [AddTwoNumbers.java](java/linked-lists/AddTwoNumbers.java) | [addTwoNumbers.js](javascript/linked-lists/addTwoNumbers.js) | ⬜ |
+| 🔴 Hard | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [MergeKSortedLists.java](java/linked-lists/MergeKSortedLists.java) | [mergeKSortedLists.js](javascript/linked-lists/mergeKSortedLists.js) | ⬜ |
 
 ### 🔍 Sorting & Searching
 
-| Difficulty | Problem | Java | JavaScript |
-|------------|---------|------|------------|
-| 🟢 Easy | [Binary Search](https://leetcode.com/problems/binary-search/) | [BinarySearch.java](java/sorting-searching/BinarySearch.java) | [binarySearch.js](javascript/sorting-searching/binarySearch.js) |
-| 🟡 Medium | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](java/sorting-searching/SortColors.java) | [sortColors.js](javascript/sorting-searching/sortColors.js) |
-| 🔴 Hard | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [FindMinRotatedSortedArrayII.java](java/sorting-searching/FindMinRotatedSortedArrayII.java) | [findMinRotatedSortedArrayII.js](javascript/sorting-searching/findMinRotatedSortedArrayII.js) |
+| Difficulty | Problem | Java | JavaScript | Status |
+|------------|---------|------|------------|--------|
+| 🟢 Easy | [Binary Search](https://leetcode.com/problems/binary-search/) | [BinarySearch.java](java/sorting-searching/BinarySearch.java) | [binarySearch.js](javascript/sorting-searching/binarySearch.js) | ⬜ |
+| 🟡 Medium | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [SortColors.java](java/sorting-searching/SortColors.java) | [sortColors.js](javascript/sorting-searching/sortColors.js) | ⬜ |
+| 🔴 Hard | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [FindMinRotatedSortedArrayII.java](java/sorting-searching/FindMinRotatedSortedArrayII.java) | [findMinRotatedSortedArrayII.js](javascript/sorting-searching/findMinRotatedSortedArrayII.js) | ⬜ |
 
 ---
 
@@ -152,4 +154,4 @@ done
 
 ---
 
-*Solutions added progressively. Each new problem follows the same structure: problem statement → approach → complexity → solution → tests.*
+*Problems solved progressively. Each commit on `main` represents a real solution — no bulk uploads.*
