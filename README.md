@@ -24,12 +24,12 @@ A progressively solved collection of LeetCode-style problems in **Java** and **J
 
 | Topic | Easy | Medium | Hard | Solved |
 |-------|------|--------|------|--------|
-| Arrays & Strings | ⬜ | ⬜ | ⬜ | 0 / 3 |
+| Arrays & Strings | ✅ | ⬜ | ⬜ | 1 / 3 |
 | Trees & Graphs | ⬜ | ⬜ | ⬜ | 0 / 3 |
 | Dynamic Programming | ⬜ | ⬜ | ⬜ | 0 / 3 |
 | Linked Lists | ⬜ | ⬜ | ⬜ | 0 / 3 |
 | Sorting & Searching | ⬜ | ⬜ | ⬜ | 0 / 3 |
-| **Total** | **0** | **0** | **0** | **0 / 15** |
+| **Total** | **1** | **0** | **0** | **1 / 15** |
 
 **Languages:** Java · JavaScript &nbsp;|&nbsp; **Total problems:** 15 &nbsp;|&nbsp; **Total files:** 30
 
@@ -80,7 +80,7 @@ done
 
 | Difficulty | Problem | Java | JavaScript | Status |
 |------------|---------|------|------------|--------|
-| 🟢 Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | [TwoSum.java](java/arrays-strings/TwoSum.java) | [twoSum.js](javascript/arrays-strings/twoSum.js) | ⬜ |
+| 🟢 Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | [TwoSum.java](java/arrays-strings/TwoSum.java) | [twoSum.js](javascript/arrays-strings/twoSum.js) | ✅ |
 | 🟡 Medium | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [LongestSubstringWithoutRepeatingChars.java](java/arrays-strings/LongestSubstringWithoutRepeatingChars.java) | [longestSubstringWithoutRepeatingChars.js](javascript/arrays-strings/longestSubstringWithoutRepeatingChars.js) | ⬜ |
 | 🔴 Hard | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [MedianOfTwoSortedArrays.java](java/arrays-strings/MedianOfTwoSortedArrays.java) | [medianOfTwoSortedArrays.js](javascript/arrays-strings/medianOfTwoSortedArrays.js) | ⬜ |
 
