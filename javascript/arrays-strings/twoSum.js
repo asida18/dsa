@@ -16,10 +16,35 @@
  * Space Complexity: O(?)
  */
 
-function twoSum(nums, target) {
-  // TODO: implement
+// Brute force solution
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+// function twoSum(nums, target) {
+//   for (var i = 0; i < nums.length; i++) {
+//     for (var j = i + 1; j < nums.length; j++) {
+//       if (nums[i] + nums[j] === target) {
+//         return [i, j];
+//       }
+//     }
+//   }
+//   return [];
+// }
 
+// Map/hash table solution
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+function twoSum(nums, target) {
+  const map = new Map();
+
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+    if (map.has(complement)) return [map.get(complement), i];
+    map.set(nums[i], i);
+  }
+
+  throw new Error("No solution found");
 }
+
 
 // --- Tests ---
 const assert = (condition, msg) => { if (!condition) throw new Error(msg); };
